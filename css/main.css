@@ -80,11 +80,16 @@
  * ------------- */
 .sign-in {
 	width: 60px;
-	height: 30px;
-	background-color: rgba(0,0,0,.1);
+	height: 24px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#3279fd), to(#174cab));
+    background: -webkit-linear-gradient(#3279fd, #174cab);
+    background: -moz-linear-gradient(#3279fd, #174cab);
+    background: -o-linear-gradient(#3279fd, #174cab);
+    background: linear-gradient(#3279fd, #174cab);
 	padding: 8px 5px 0px 5px;
 	text-align: center;
 	position: relative;
+	color: white;
 }
 
 .search-bar{
